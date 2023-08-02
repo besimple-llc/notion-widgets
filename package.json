@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:kousuuhyou": "npx tailwindcss -i kousuuhyou/style.css -o ./dist/kousuuhyou/style.css --watch"
+    "dev:kousuuhyou": "npx tailwindcss -i kousuuhyou/style.css -o ./dist/kousuuhyou/style.css --watch",
+    "prd:kousuuhyou": "npx tailwindcss -i kousuuhyou/style.css -o ./dist/kousuuhyou/style.css --minify"
   },
   "author": "",
   "license": "ISC",
