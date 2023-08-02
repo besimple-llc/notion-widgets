@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lp-application-navigate-button {
+    @apply
+    flex gap-4 justify-center items-center
+    w-full px-8 py-4
+    text-2xl text-white font-extrabold
+    rounded-full bg-gradient-to-r from-[#7ed957] to-[#29c5e1] ;
+}

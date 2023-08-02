@@ -1,0 +1,14 @@
+{
+  "name": "notion-widgets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:kousuuhyou": "npx tailwindcss -i ./src/kousuuhyou/kousuuhyou.css -o ./dist/kousuuhyou/kousuuhyou.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
