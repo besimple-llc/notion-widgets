@@ -3,16 +3,19 @@
 @tailwind utilities;
 
 .lp-application-navigate-button {
+    grid-template: ". text icon" auto / 1fr auto 1fr;
     @apply
-    flex gap-2 justify-center items-center
+    grid items-center gap-2
     w-full px-8 py-4
     rounded-full bg-gradient-to-r from-[#7ed957] to-[#29c5e1] ;
 }
 
 .lp-application-navigate-button-text {
+    grid-area: text;
     @apply text-2xl text-white font-extrabold
 }
 
 .lp-application-navigate-button-arrow-right-icon {
+    grid-area: icon;
     @apply w-8 h-8 text-white
 }
